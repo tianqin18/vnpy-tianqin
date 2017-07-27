@@ -70,7 +70,8 @@ class TianQinGateway(VtGateway):
         订阅历史行情序列
         订阅指定合约及周期的历史数据序列（K线数据序列或Tick数据序列），这些序列数据会持续推送
         :param ins_id: 合约代码，需注意大小写
-        :param duration_seconds: 历史数据周期，以秒为单位。特别的，此值指定为0表示订阅tick序列
+        :param duration_seconds: 历史数据周期，以秒为单位。特别的，此值指定为0表示订阅tick序列。目前支持的周期包括：
+                3秒，5秒，10秒，15秒，20秒，30秒，1分钟，2分钟，3分钟，5分钟，10分钟，15分钟，20分钟，30分钟，1小时，2小时，4小时，1日
         :param data_length: 需要获取的序列长度。每个序列最大支持请求 8964 个数据
         :param callback_func (可选): callback_func 是一个回调函数，每当序列数据变更时会触发。此函数应该接受2个参数 ins_id, duration_seconds
         :example:
