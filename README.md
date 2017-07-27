@@ -27,7 +27,10 @@ pip install tornado
 
 **安装本扩展包**
 
-在[这里](https://github.com/vnpy/vnpy/releases)下载最新版本，解压后，将所有文件复制到 vn.py 安装目录。
+在[这里](https://github.com/tianqin18/vnpy-tianqin/releases)下载最新版本，解压后，将所有文件复制到 vn.py 安装目录。
+复制完成以后的目录应该是这个样子：
+
+![Installed Dir](install.png)
 
 
 ---
@@ -83,8 +86,9 @@ if __name__ == '__main__':
 
 ---
 ### 联系作者
-email：tianqincn@gmail.com
-QQ: 166210483
+
+* email：tianqincn@gmail.com
+* QQ: 166210483
 
 
 
