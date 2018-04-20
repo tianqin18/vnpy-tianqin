@@ -1,5 +1,13 @@
 # vnpy-tianqin - vn.py到天勤行情的接口
 
+---
+### 注意!
+
+* 本接口代码已经提交到 vn.py 官方代码库, 只需按照 vn.py 文档正常下载安装 vn.py 即可使用, 不再需要下载本项目代码. 本项目后续不再单独更新维护.
+* 如果您只需要在python程序中获取数据, 并不需要使用vn.py, 可以使用 https://github.com/tianqin18/tqsdk-python
+* 如果您需要使用除Python外的其它方式访问数据, 可以参见: http://doc.tq18.cn/tq/latest/extension/index.html
+
+
 
 ---
 ### 简介
